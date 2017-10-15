@@ -26,7 +26,7 @@
 		"disk_type": "{{ user `disk_type` }}",
 
 		"network": "default",
-		"tags": "puma-server",
+		"tags": "puma-server"
 	}
 	],
 "provisioners":[
