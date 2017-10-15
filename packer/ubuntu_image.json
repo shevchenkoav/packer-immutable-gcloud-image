@@ -27,8 +27,6 @@
 
 		"network": "default",
 		"tags": "puma-server",
-
-		"startup_script_file": "{{user `startup_script_file`}}"
 	}
 	],
 "provisioners":[
