@@ -2,9 +2,7 @@
 #
 # install&deploy https://github.com/Artemmkin/reddit
 
-curl -Ssl https://raw.githubusercontent.com/shevchenkoav/infra/base-os-packer/packer/scripts/install_ruby.sh \
+curl -Ssl https://raw.githubusercontent.com/shevchenkoav/packer-immutable-gcloud-image/master/packer/scripts/install_ruby.sh \
 	| sudo -u appuser -i bash
-curl -Ssl https://raw.githubusercontent.com/shevchenkoav/infra/base-os-packer/packer/scripts/install_mongodb.sh \
+curl -Ssl https://raw.githubusercontent.com/shevchenkoav/packer-immutable-gcloud-image/master/packer/scripts/install_mongodb.sh \
 	| bash
-curl -Ssl https://raw.githubusercontent.com/shevchenkoav/infra/base-os-packer/packer/scripts/deploy.sh \
-	| sudo -u appuser -i bash
